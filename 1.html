@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>When to Use Static Generation v.s. Server-side Rendering</title>
+        <link href = "styles/style.css" rel = "stylesheet">
+        <script src = "scripts/main.js"></script>
+    </head>
+    <body>
+        <img src = "images/profile.jpg" alt = "start" >
+        <h1><strong>HEKEYAS</strong></h1>
+        <h2>When to Use Static Generation v.s. Server-side Rendering</h2>
+        <h4><em>November 8 , 2021</em></h4>
+        <h3>We recommend using <strong>Static Generation</strong> (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.</h3>
+        <p>You can use Static Generation for many types of pages, including:</p>
+        <li>Marketing pages</li>
+        <li>Blog posts</li>
+        <li>E-commerce product listings</li>
+        <li>Help and documentation</li>
+        <h3>You should ask yourself: "Can I pre-render this page <strong>ahead</strong> of a user's request?" If the answer is yes, then you should choose Static Generation.</h3>
+        <h3>On the other hand, Static Generation is <strong>not</strong> a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.</h3>
+        <h3>In that case, you can use <strong >Server-Side Rendering</strong>. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.</h3>
+        <h3><a href="index.html">⬅ back to home</a></h3>
+    </body>
+</html>
